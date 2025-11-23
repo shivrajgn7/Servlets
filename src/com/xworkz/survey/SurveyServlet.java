@@ -42,7 +42,7 @@ public class SurveyServlet extends HttpServlet {
        String hus=req.getParameter("hus");
        String  child=req.getParameter("child");
 
-    SurveyDto surveyDto=new SurveyDto(name,occup,edd,nativePlace,bike,car,Integer.parseInt(mobileNumber),Integer.parseInt(adharNumber),panCard,voter,ration,passport, Integer.parseInt(bank),father,mother,married,hus,Integer.parseInt(child));
+    SurveyDto surveyDto=new SurveyDto(name,occup,edd,nativePlace,bike,car,mobileNumber,adharNumber,panCard,voter,ration,passport,bank,father,mother,married,hus,child);
         System.out.println(surveyDto);
         SurveyService service=new SurveyServiceImpl();
         try {

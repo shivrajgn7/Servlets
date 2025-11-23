@@ -9,20 +9,20 @@ public class SurveyDto implements Serializable,Comparable {
     private String nativePlace;
     private String  bike;
     private String car;
-    private int mobile;
-    private int adhar;
+    private String mobile;
+    private String adhar;
     private String pan;
     private String voter;
     private String ration;
     private String passport;
-    private int bank;
+    private String bank;
     private String father;
     private String mother;
     private String married;
     private  String husbannd;
-    private int child;
+    private String  child;
 
-    public SurveyDto(String name, String occupation, String edducation, String nativePlace, String bike, String car, int mobile, int adhar, String pan, String voter, String ration,String passport, int bank, String father, String mother,String married, String husbannd, int child) {
+    public SurveyDto(String name, String occupation, String edducation, String nativePlace, String bike, String car, String mobile, String adhar, String pan, String voter, String ration,String passport, String bank, String father, String mother,String married, String husbannd, String child) {
         this.name = name;
         this.occupation = occupation;
         this.edducation = edducation;
@@ -111,19 +111,19 @@ public class SurveyDto implements Serializable,Comparable {
         this.car = car;
     }
 
-    public int getMobile() {
+    public String getMobile() {
         return mobile;
     }
 
-    public void setMobile(int mobile) {
+    public void setMobile(String mobile) {
         this.mobile = mobile;
     }
 
-    public int getAdhar() {
+    public String getAdhar() {
         return adhar;
     }
 
-    public void setAdhar(int adhar) {
+    public void setAdhar(String adhar) {
         this.adhar = adhar;
     }
 
@@ -177,11 +177,11 @@ public class SurveyDto implements Serializable,Comparable {
         this.husbannd = husbannd;
     }
 
-    public int getChild() {
+    public String  getChild() {
         return child;
     }
 
-    public void setChild(int child) {
+    public void setChild(String child) {
         this.child = child;
     }
 
