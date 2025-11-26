@@ -11,6 +11,7 @@ Name: ${name}<br>
 Occupation:${occup}<br>
 Education:${education}<br>
 Native Places:${nativeLocate}<br>
+
 Bike :${bike}<br>
 Car Number:${car}<br>
 Mobile number:${mobile}<br>
