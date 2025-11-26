@@ -13,6 +13,7 @@ Education:${education}<br>
 Native Places:${nativeLocate}<br>
 
 Bike :${bike}<br>
+
 Car Number:${car}<br>
 Mobile number:${mobile}<br>
 Adhar number:${adhar}<br>
