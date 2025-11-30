@@ -30,7 +30,7 @@ public class SweetUpdate {
             System.out.println("2 row is affected: "+row2);
             System.out.println("3 row is affected: "+row3);
             System.out.println("4 row is affected: "+row4);
-
+            System.out.println("Is in try");
 
         }catch (SQLException e){
             e.printStackTrace();
