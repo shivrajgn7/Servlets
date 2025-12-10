@@ -32,7 +32,7 @@ public class BloodDaoImpl implements BloodDao{
     try (Connection connection= DriverManager.getConnection(url,user,password);
      PreparedStatement preparedStatement=connection.prepareStatement(sqlQuery))   {
         System.out.println("JDBC Inserting is Started");
-        preparedStatement.setLong(1,4);
+        preparedStatement.setLong(1,bloodDto.getId());
         preparedStatement.setString(2,bloodDto.getName());
         preparedStatement.setString(3,bloodDto.getBGroup());
         preparedStatement.setString(4,bloodDto.getEmail());

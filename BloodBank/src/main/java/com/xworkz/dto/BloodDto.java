@@ -12,6 +12,7 @@ import java.io.Serializable;
 
 @ToString
 public class BloodDto implements Serializable {
+    private int id;
     private String name;
     private  String bGroup;
     private String email;
